@@ -29,7 +29,8 @@ span {
   margin: 5px;
   color: #fff;
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   font-size: 10rem;
 }
 .box:hover {
@@ -81,17 +82,20 @@ button {
   .box {
     max-width: 110px;
     max-height: 110px;
+    font-size: 8rem;
   }
 }
 @media (max-width: 380px) {
   .box {
     max-width: 90px;
     max-height: 90px;
+    font-size: 7rem;
   }
 }
 @media (max-width: 320px) {
   .box {
     max-width: 70px;
     max-height: 70px;
+    font-size: 5rem;
   }
 }
